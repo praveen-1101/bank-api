@@ -37,7 +37,7 @@
 </ol>
 <h3>Deployment</h3>
 <p>The API was deployed on Vercel due to issues with Heroku's free-tier requirements, which require a payment method. Since I opted not to add a payment method for cautious reasons, <b><u>Vercel</u></b> was used as the deployment platform for easier setup and deployment.</p>
-<pre><h3>Vercel Deployment Link: </h3>https://bank-api-rust.vercel.app</pre>
+<b>Vercel Deployment Link: </b>https://bank-api-rust.vercel.app
 </ul>
 <h3>Time Taken</h3>
 <p>This project was completed in 2-3 days with 8-12 hours of focussed work, focusing on API development, unit testing, and deployment.</p>
