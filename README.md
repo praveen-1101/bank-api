@@ -1,5 +1,4 @@
-# bank-api
-<h1>Bank API</h1>
+<h1>BANK API</h1>
 <h3>Overview</h3>
 <p>This focusses on implementing an API service to fetch bank and branch details. The API supports REST queries and allows users to retrieve information about different banks and their branches.The API includes two main endpoints:</p>
 <ul>
@@ -38,7 +37,7 @@
 </ol>
 <h3>Deployment</h3>
 <p>The API was deployed on Vercel due to issues with Heroku's free-tier requirements, which require a payment method. Since I opted not to add a payment method for cautious reasons, <b><u>Vercel</u></b> was used as the deployment platform for easier setup and deployment.</p>
-<h3>Vercel Deployment Link: </h3>https://bank-api-rust.vercel.app
+<pre><h3>Vercel Deployment Link: </h3>https://bank-api-rust.vercel.app</pre>
 </ul>
 <h3>Time Taken</h3>
-<p>This project was completed in 2-3 days, focusing on API development, unit testing, and deployment.</p>
+<p>This project was completed in 2-3 days with 8-12 hours of focussed work, focusing on API development, unit testing, and deployment.</p>
