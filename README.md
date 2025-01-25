@@ -40,6 +40,6 @@
 <b>Vercel Deployment Link: </b> https://bank-api-rust.vercel.app
 </ul>
 <h3>Time Taken</h3>
-<p>I spent 2-3 days working on this project, focusing on building the API, testing, and deploying it.</p>
+<p>I spent 2-3 days working on this project with 8 to 12 hours of focussed work, focusing on building the API , testing, and deploying it.</p>
 <h3>Challenges</h3>
 <p>I ran into some issues with deployment on Heroku due to the payment method, which led me to use Vercel instead. I learned a lot about deployment and error handling through this process.</p>
