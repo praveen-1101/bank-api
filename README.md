@@ -26,7 +26,7 @@
 </ol>
 <h3>Core Technologies Used</h3>
 <ul>
-<li><h4>Flask</h4>: To create the backend API.</li>
+<li><b>Flask:</b> To create the backend API.</li>
 <li>unittest: For writing unit tests to verify the correctness of the API.</li>
 <li>Python: The programming language used.</li>
 </ul>
