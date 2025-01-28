@@ -2,14 +2,14 @@ from flask import Flask, jsonify
 
 app = Flask(__name__)
 
-# Main Banks Data
+# Data related to main banks
 banks = [
     {"id": 1, "name": "STATE BANK OF INDIA"},
     {"id": 2, "name": "PUNJAB NATIONAL BANK"},
     {"id": 3, "name": "CANARA BANK"}
 ]
 
-# Branches data 
+# Data related to its corresponding branches
 branches = [
    
     {"branch_code": "ABHY0065001", "bank_id": 1, "branch": "RTGS-HO", "ifsc": "SBIN0001", "address": "ABHYUDAYA BANK BLDG., B.NO.71, NEHRU NAGAR, KURLA (E), MUMBAI-400024", "city": "MUMBAI", "district": "GREATER MUMBAI", "state": "MAHARASHTRA"},
@@ -20,6 +20,7 @@ branches = [
     {"branch_code": "CAN002", "bank_id": 3, "branch": "KOCHI BRANCH", "ifsc": "CAN0002", "address": "MG ROAD, KOCHI, KERALA - 682035", "city": "KOCHI", "district": "ERNAKULAM", "state": "KERALA"}
 ]
 
+#An endpoint to the starting route
 @app.route('/')
 def home():
     return "Hello, everyone!, Welcome to the Bank API"
@@ -44,5 +45,6 @@ def page_not_found(error):
     }
     return jsonify(response), 404
 
+#Main function
 if __name__ == '__main__':
     app.run(debug=True)

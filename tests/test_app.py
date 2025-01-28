@@ -2,6 +2,7 @@ import unittest
 from app import app
 
 class TestBankAPI(unittest.TestCase):
+    
     #To define a class method
     @classmethod               
     def setUpClass(cls):
